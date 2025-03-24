@@ -2,26 +2,27 @@
 <img src="./readme_assets/mau.png" alt="!!err image loading." width="700"/>
 
 ## Lời mở đầu 
-- Trong bối cảnh dân số ngày càng già hóa và tỷ lệ mắc các bệnh liên quan đến đột quỵ ngày càng gia tăng, việc phát hiện kịp thời các sự cố té ngã trở thành một yêu cầu cấp thiết trong chăm sóc sức khỏe. Đột quỵ và té ngã là những nguy cơ lớn đối với người cao tuổi và những người có bệnh lý nền, có thể dẫn đến các biến chứng nghiêm trọng nếu không được can thiệp kịp thời.
-- Dự án này hướng tới mục tiêu xây dựng một hệ thống nhận diện té ngã sử dụng mô hình YOLO V8 - một phiên bản cải tiến hiện đại trong lĩnh vực thị giác máy tính. Với khả năng nhận diện đối tượng nhanh chóng và chính xác, YOLO V8 không chỉ giúp phát hiện các tình huống nguy hiểm một cách hiệu quả mà còn hỗ trợ việc triển khai trên các thiết bị phần cứng hạn chế như camera giám sát hoặc các thiết bị IoT.
-- Hệ thống được kỳ vọng sẽ mang lại giải pháp công nghệ tiên tiến, góp phần nâng cao chất lượng chăm sóc sức khỏe và cải thiện khả năng đáp ứng của các dịch vụ y tế trong việc bảo vệ tính mạng người dân.
+-Trong thời đại số hóa, lượng nội dung phim ảnh ngày càng gia tăng, khiến người dùng gặp khó khăn trong việc lựa chọn phim phù hợp với sở thích cá nhân. Các hệ thống đề xuất thông minh đã trở thành một giải pháp quan trọng nhằm nâng cao trải nghiệm người dùng, giúp họ dễ dàng khám phá những bộ phim yêu thích dựa trên sở thích và hành vi trước đó.
+
+-Dự án này tập trung vào việc xây dựng một hệ thống đề xuất phim dựa trên Collaborative Filtering (CF) kết hợp với Encoder Transformer. Thay vì sử dụng phương pháp truyền thống như Matrix Factorization, chúng tôi áp dụng Transformer để mã hóa thông tin người dùng và phim, từ đó tạo ra các vector biểu diễn giàu ngữ nghĩa. Mô hình sau đó sử dụng Fully Connected Neural Network (FNN) để dự đoán mức độ phù hợp giữa người dùng và phim, giúp tối ưu hóa độ chính xác của hệ thống đề xuất.
+
+-Hệ thống này không chỉ tận dụng sức mạnh của Deep Learning trong việc xử lý dữ liệu phi cấu trúc mà còn khắc phục các hạn chế của Collaborative Filtering truyền thống như vấn đề cold start và sparsity. Bằng cách học các đặc trưng tiềm ẩn từ dữ liệu, mô hình có khả năng dự đoán và đề xuất phim một cách linh hoạt, cá nhân hóa hơn cho từng người dùng.
+
+-Dự án này hứa hẹn mang đến một giải pháp mạnh mẽ, cải thiện đáng kể chất lượng gợi ý phim, giúp người dùng có những trải nghiệm xem phim tối ưu và thuận tiện nhất.
 
 ## Thành viên thực hiện 
-- Nguyễn Lê Quốc Bảo - tham gia đóng góp 80% (bản thân) (Cài đặt huấn luyện mô hình, code xử lý data, tìm kiếm nguồn data, code demo cho mô hình sau huấn luyện).
-- Lê Văn Tuyến - tham gia đóng góp 10% (Tiến hành xử lý data)
-- Phan Triệu Tỷ - tham gia đóng góp 10% (Viết báo cáo)
+- Nguyễn Lê Quốc Bảo - tham gia đóng góp 100% (bản thân) (Cài đặt huấn luyện mô hình, code xử lý data, tìm kiếm nguồn data, code demo cho mô hình sau huấn luyện, viết báo cáo).
 
 ## Các vị trí trong dự án
 - Ba (phân tích mô hình, tìm kiếm mô hình, tìm kiếm data, viết báo cáo).
-- Dev (lập trình code xử lý data, cài đặt mô hình, huấn luyện và test mô hình).
-- leader (Điều hành, bố trí các thành viên làm việc)
+- leader (Điều hành, quản lý dự án)
 
 ## Vị trí của bản thân
-- Dev, Ba, leader
+- Dev, leader
 
 ## Mô hình sử dụng và lĩnh vực 
-- Yolo v8
-- Lĩnh vực Object Detection
+- Collaborative Filtering (CF) với lõi chính là lớp encode của tranformer(đồng thời áp dụng mullti embeding biểu diễn mối quan hệ trong từng ngữ cảnh của dữ liệu)
+- Lĩnh vực xử lý ngôn ngữ tự nhiên
 
 ## Các thư viện và ngôn ngữ sử dụng trong dự án
 - Ngôn ngữ Python
