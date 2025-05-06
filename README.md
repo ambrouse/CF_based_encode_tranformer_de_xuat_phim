@@ -56,13 +56,11 @@
 
 
 ## Video demo cho dự án 
-- (chưa cập nhật)
-<!-- [![Watch video](https://img.youtube.com/vi/xeT9JaDhNn4/0.jpg)](https://www.youtube.com/watch?v=xeT9JaDhNn4) -->
+[![Watch video](https://img.youtube.com/vi/CivdCAs3dYY/0.jpg)](https://www.youtube.com/watch?v=CivdCAs3dYY)
 
 ## Tài liệu
-- (chưa cập nhật)
-<!-- - [Báo cáo chi tiết dự án](report/Đồ%20án%20nhóm.doc)
-- [Báo cáo tóm tắt dự án](report/Tóm%20Tắt.docx) -->
+- [Báo cáo chi tiết dự án](report/nguyen_le_quoc_bao_2100004053.docx)
+- [Báo cáo tóm tắt dự án bản pp](report/bao_cao_de_xuat_phim.pptx)
 
 ## Link data và mô hình (file trọng số).
 - [Data](https://drive.google.com/drive/folders/1loOymzPCEYAU3fz-B6TRfFGKKHBf9Va-?usp=sharing)
